@@ -3,6 +3,8 @@
 
 	--white-color: #ffffff;
 	--black-color: #000000;
+
+	--content-width: 1110px;
 }
 
 * {
@@ -28,7 +30,7 @@ a {
 }
 
 .content {
-	width: 1110px;
+	width: var(--content-width);
 	max-width: calc(100% - 48px);
 	margin-left: auto;
 	margin-right: auto;

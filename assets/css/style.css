@@ -1,7 +1,8 @@
 /* Header */
 .header {
-	background-color: #e6f0ff;
 	height: 100vh;
+	position: relative;
+	background-color: #e6f0ff;
 }
 
 /* Navbar */
@@ -78,4 +79,10 @@
 .hero-cta {
 	min-width: 170px;
 	margin-top: 40px;
+}
+
+.hero-img {
+	position: absolute;
+	bottom: 0;
+	right: calc((100vw - var(--content-width)) / 2 - 100px);
 }
