@@ -37,7 +37,7 @@ a {
 /* Button */
 .btn {
 	min-width: 98px;
-	padding: 12px 20px;
+	padding: 14px 20px;
 	display: inline-block;
 	border-radius: 8px;
 	background-color: var(--primary-color);
