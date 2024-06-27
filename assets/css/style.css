@@ -1,0 +1,44 @@
+/* Header */
+.header {
+	background-color: #e6f0ff;
+	height: 100vh;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding-top: 38px;
+}
+
+.navbar ul {
+	display: flex;
+	margin-left: 50px;
+}
+
+.navbar ul a {
+	padding: 8px 14px;
+	color: #4f5361;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+.navbar ul a:hover {
+	text-decoration: underline;
+}
+
+.actions {
+	margin-left: auto;
+}
+
+.actions .action-link {
+	color: var(--primary-color);
+}
+
+.actions .action-link:hover {
+	text-decoration: underline;
+}
+
+.actions .action-btn {
+	margin-left: 18px;
+	padding: 8px 20px;
+}

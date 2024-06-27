@@ -1,4 +1,8 @@
 :root {
+	--primary-color: #0f1b4c;
+
+	--white-color: #ffffff;
+	--black-color: #000000;
 }
 
 * {
@@ -17,4 +21,33 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	width: 1110px;
+	max-width: calc(100% - 48px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Button */
+.btn {
+	min-width: 98px;
+	padding: 12px 20px;
+	display: inline-block;
+	border-radius: 8px;
+	background-color: var(--primary-color);
+
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--white-color);
+}
+
+.btn:hover {
+	opacity: 0.9;
 }
