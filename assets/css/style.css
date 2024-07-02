@@ -86,3 +86,35 @@
 	bottom: 0;
 	right: calc((100vw - var(--content-width)) / 2 - 100px);
 }
+
+/* Clients */
+.clients {
+	margin-top: 79px;
+}
+
+.clients .row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc-row p {
+	margin-top: 23px;
+
+	color: #7d8589;
+	font-weight: 500;
+	line-height: 1.25%;
+}
+
+.branch {
+	margin-top: 70px;
+}
+
+.branch .box {
+	padding: 27px 40px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.branch .box:hover {
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.102);
+}
