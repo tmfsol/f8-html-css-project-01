@@ -41,7 +41,7 @@ a {
 	min-width: 98px;
 	padding: 14px 20px;
 	display: inline-block;
-	border-radius: 8px;
+	border-radius: 12px;
 	background-color: var(--primary-color);
 
 	text-align: center;
