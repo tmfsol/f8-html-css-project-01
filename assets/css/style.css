@@ -269,8 +269,6 @@
 }
 
 .featured .item .body .desc {
-	--line-clamp: 3;
-
 	margin-top: 11px;
 
 	color: #a3a6ab;
@@ -387,7 +385,7 @@
 	margin-left: auto;
 }
 
-.stats .desc {
+.stats .img-block .desc {
 	margin-top: 8px;
 
 	font-size: 1.2rem;
@@ -418,9 +416,8 @@
 	height: 16px;
 	border-radius: 50%;
 	margin-left: -4px;
-}
 
-.avatar.no-avatar {
+	/* No avatar */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -429,5 +426,26 @@
 	font-size: 0.7rem;
 	font-weight: 450;
 	letter-spacing: -0.02em;
-	background-color: #24d6d9;
+	background-color: var(--bg-color, var(--white-color));
+}
+
+.row-qty {
+	margin-top: 110px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.qty-item {
+	justify-content: space-between;
+}
+
+.qty-item .qty {
+	font-size: 6.4rem;
+	font-weight: 600;
+}
+
+.qty-item .desc {
+	margin-top: 24px;
+	font-size: 1.8rem;
+	font-weight: 500;
 }
