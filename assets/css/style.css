@@ -429,6 +429,10 @@
 	background-color: var(--bg-color, var(--white-color));
 }
 
+.avatar-block .avatar:first-child {
+	margin-left: 0;
+}
+
 .row-qty {
 	margin-top: 110px;
 	display: flex;
@@ -448,4 +452,45 @@
 	margin-top: 24px;
 	font-size: 1.8rem;
 	font-weight: 500;
+}
+
+/* Subscription */
+.subscription .body {
+	height: 370px;
+	margin-top: 90px;
+	padding: 0 80px;
+
+	display: flex;
+	align-items: center;
+	position: relative;
+
+	border-radius: 20px;
+	background-color: #063183;
+}
+
+.subscription .sub-title {
+	font-size: 3.5rem;
+	font-weight: 600;
+	color: var(--white-color);
+}
+
+.subscription .desc {
+	margin-top: 15px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--white-color);
+}
+
+.subscription .cta {
+	margin-top: 20px;
+	min-width: 151px;
+
+	color: #002366;
+	background-color: var(--white-color);
+}
+
+.subscription .image {
+	bottom: 0;
+	right: 221px;
+	position: absolute;
 }
