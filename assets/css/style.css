@@ -1,15 +1,17 @@
 /* Header */
 .header {
-	height: 100vh;
-	position: relative;
+	padding: 20px 0;
 	background-color: #e6f0ff;
+
+	top: 0;
+	position: sticky;
+	z-index: 1;
 }
 
 /* Navbar */
 .navbar {
 	display: flex;
 	align-items: center;
-	padding-top: 38px;
 }
 
 .navbar ul {
@@ -46,10 +48,16 @@
 	border-radius: 8px;
 }
 
+.hero {
+	display: flex;
+	align-items: center;
+	background-color: #e6f0ff;
+	height: calc(100vh - 78.4px);
+}
+
 /* Hero */
 .hero .info {
 	width: 51%;
-	margin-top: 130px;
 }
 
 .hero .info .sub-title {
@@ -57,6 +65,7 @@
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.01em;
+	color: #687690;
 }
 
 .hero .info .title {
@@ -110,7 +119,19 @@
 }
 
 .branch {
-	margin-top: 96.5px;
+	margin-top: 70px;
+}
+
+.branch a {
+	height: 90px;
+	padding: 0 41px;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.branch a:hover {
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.102);
 }
 
 /* Guides */
